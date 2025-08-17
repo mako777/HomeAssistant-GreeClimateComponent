@@ -1,5 +1,5 @@
 DOMAIN = "gree"
-PLATFORMS = ["climate"]
+PLATFORMS = ["climate", "number", "sensor", "switch"]
 
 CONF_HVAC_MODES = "hvac_modes"
 CONF_TARGET_TEMP_STEP = 'target_temp_step'
@@ -37,10 +37,11 @@ MAX_TEMP_C = 30
 MIN_TEMP_F = 61
 MAX_TEMP_F = 86
 
-TEMSEN_OFFSET = 40
+TEMP_SENSOR_OFFSET = 40
+TEMP_SENSOR_OFFSET_OPTIONS = ["auto", "on", "off"]
 
 # HVAC modes - these come from Home Assistant and are standard
-DEFAULT_HVAC_MODES = ["auto", "cool", "dry", "fan_only", "heat", "off"] 
+DEFAULT_HVAC_MODES = ["auto", "cool", "dry", "fan_only", "heat", "off"]
 
 DEFAULT_FAN_MODES = ["auto", "low", "medium_low", "medium", "medium_high", "high", "turbo", "quiet"]
 DEFAULT_SWING_MODES = ["default", "swing_full", "fixed_upmost", "fixed_middle_up", "fixed_middle", "fixed_middle_low", "fixed_lowest", "swing_downmost", "swing_middle_low", "swing_middle", "swing_middle_up", "swing_upmost"]

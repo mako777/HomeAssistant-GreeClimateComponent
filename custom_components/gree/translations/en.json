@@ -129,6 +129,13 @@
         "fixed_middle_right": "Fixed in the middle-right position",
         "fixed_rightmost": "Fixed in the rightmost position"
       }
+    },
+    "temp_sensor_offset": {
+      "options": {
+        "auto": "Auto",
+        "on": "On",
+        "off": "Off"
+      }
     }
   },
   "entity": {
@@ -176,6 +183,26 @@
           }
         }
       }
+    },
+    "switch": {
+      "lights": { "name": "Lights" },
+      "xfan": { "name": "X-Fan" },
+      "health": { "name": "Health" },
+      "powersave": { "name": "Powersave" },
+      "sleep": { "name": "Sleep" },
+      "eightdegheat": { "name": "8°C Heat" },
+      "air": { "name": "Air" },
+      "anti_direct_blow": { "name": "Anti Direct Blow" },
+      "beeper": { "name": "Beeper" },
+      "auto_light": { "name": "Auto Light" },
+      "auto_xfan": { "name": "Auto X-Fan" },
+      "light_sensor": { "name": "Light Sensor" }
+    },
+    "number": {
+      "target_temp": { "name": "Target temperature" }
+    },
+    "sensor": {
+      "current_temp": { "name": "Current temperature" }
     }
   }
 }

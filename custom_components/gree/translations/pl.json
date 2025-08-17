@@ -129,6 +129,13 @@
         "fixed_middle_right": "Stały w pozycji środkowo-prawej",
         "fixed_rightmost": "Stały w skrajnie prawej pozycji"
       }
+    },
+    "temp_sensor_offset": {
+      "options": {
+        "auto": "Auto",
+        "on": "Włączony",
+        "off": "Wyłączony"
+      }
     }
   },
   "entity": {
@@ -176,6 +183,26 @@
           }
         }
       }
+    },
+    "switch": {
+      "lights": { "name": "Wyświetlacz" },
+      "xfan": { "name": "X-Fan" },
+      "health": { "name": "Jonizator powietrza" },
+      "powersave": { "name": "Oszczędzanie energii" },
+      "sleep": { "name": "Sen" },
+      "eightdegheat": { "name": "Grzanie do 8°C" },
+      "air": { "name": "Wymiana powietrza" },
+      "anti_direct_blow": { "name": "Anty-bezpośredni nawiew" },
+      "beeper": { "name": "Sygnał dźwiękowy" },
+      "auto_light": { "name": "Auto wyświetlacz" },
+      "auto_xfan": { "name": "Auto X-Fan" },
+      "light_sensor": { "name": "Czujnik światła" }
+    },
+    "number": {
+      "target_temp": { "name": "Temperatura docelowa" }
+    },
+    "sensor": {
+      "current_temp": { "name": "Temperatura aktualna" }
     }
   }
 }
